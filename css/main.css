@@ -307,7 +307,7 @@ ul {
     font-size: 2rem;
   }
   #header {
-    padding-top: 4rem;
+    padding-top: 2rem;
   }
   #header::before {
     background: url(../images/bg-header-desktop.png);
