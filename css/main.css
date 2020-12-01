@@ -66,7 +66,12 @@ body {
 }
 
 a {
+  color: #4c545d;
   text-decoration: none;
+}
+
+a:hover {
+  color: #26baa4;
 }
 
 h1 {
@@ -105,7 +110,7 @@ ul {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  padding: 9rem 0 6rem 0;
+  padding: 7rem 0 5rem 0;
   position: relative;
 }
 
@@ -123,6 +128,7 @@ ul {
 }
 
 #header .logo {
+  cursor: pointer;
   width: 30%;
 }
 
@@ -227,6 +233,10 @@ ul {
 }
 
 .partners {
+  margin: 8rem 0;
+}
+
+.partners ul li {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -237,18 +247,20 @@ ul {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin: 8rem 0;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 5rem 0;
 }
 
 .partners img {
-  margin-bottom: 4rem;
   width: 40%;
 }
 
 #footer {
-  background-color: #f0ebeb;
+  background-color: #f1f3f4;
   text-align: center;
-  margin-top: 15rem;
+  margin-top: 10rem;
   padding: 4rem 0;
 }
 
@@ -261,10 +273,6 @@ ul {
   cursor: pointer;
   font-size: 1.5rem;
   margin-top: 2.8rem;
-}
-
-#footer ul li:hover {
-  color: #26baa4;
 }
 
 #footer .social {
@@ -299,7 +307,7 @@ ul {
     font-size: 2rem;
   }
   #header {
-    padding-top: 11rem;
+    padding-top: 10rem;
   }
   #header::before {
     background: url(../images/bg-header-desktop.png);
@@ -314,7 +322,7 @@ ul {
     width: 100%;
   }
   #header .logo {
-    width: 15%;
+    width: 10%;
   }
   .showcase p,
   .info p {
@@ -358,6 +366,9 @@ ul {
   .accessibility p {
     width: 60%;
   }
+  .productivity {
+    margin: 5rem 0;
+  }
   .productivity .items {
     display: -ms-grid;
     display: grid;
@@ -370,7 +381,7 @@ ul {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    padding: 5rem 2rem 0 2rem;
+    padding-top: 5rem;
   }
   .productivity .items .item {
     display: -webkit-box;
@@ -392,7 +403,7 @@ ul {
   .productivity .items .item p {
     font-size: 1rem;
   }
-  .partners {
+  .partners ul {
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: (auto)[5];
@@ -404,9 +415,12 @@ ul {
         -ms-flex-pack: center;
             justify-content: center;
   }
+  .partners ul li {
+    margin: 0;
+  }
   .partners img {
     margin: 0;
-    padding: 3rem;
+    padding: 2.5rem;
     width: 100%;
   }
   #footer {
@@ -418,8 +432,8 @@ ul {
             justify-content: space-evenly;
   }
   #footer .footer_logo {
-    height: 80px;
-    width: 80px;
+    height: 70px;
+    width: 70px;
   }
   #footer ul {
     text-align: left;
