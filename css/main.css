@@ -307,7 +307,7 @@ ul {
     font-size: 2rem;
   }
   #header {
-    padding-top: 10rem;
+    padding-top: 4rem;
   }
   #header::before {
     background: url(../images/bg-header-desktop.png);
@@ -440,6 +440,7 @@ ul {
   }
   #footer ul li {
     margin: 0;
+    font-size: 1rem;
   }
   #footer ul:nth-child(1),
   #footer ul li {
